@@ -1,0 +1,256 @@
+# ale_xiovk <alexiobash@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: yaourt-gui-manjaro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-04-21 18:54+0200\n"
+"PO-Revision-Date: 2013-10-04 20:37+0200\n"
+"Last-Translator: Alexandru Ianu <alexandru.ianu@gmail.com>\n"
+"Language-Team: Romanian <alexandru.ianu@gmail.com> <alexiobash@gmail.com>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.7\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+
+#: ../yaourt-gui:37
+msgid "not found"
+msgstr "negăsit"
+
+#: ../yaourt-gui:41
+msgid "[1] Sync DB\t\t[9]  Search & Install\t[17] Set Proxy"
+msgstr ""
+"[1] Sincronizare BD      [9]  Căutare/instalare      [17] Configurare proxy"
+
+#: ../yaourt-gui:42
+msgid "[2] Update System\t[10] Belongs To Files\t[18] Remove Proxy"
+msgstr ""
+"[2] Actualizare sistem   [10] Apartenență fișiere    [18] Eliminare proxy"
+
+#: ../yaourt-gui:43
+msgid "[3] Update force mode\t[11] Info Packages\t[19] Edit pacman.conf"
+msgstr ""
+"[3] Actualizare forțată  [11] Informații pachete     [19] Editare pacman.conf"
+
+#: ../yaourt-gui:44
+msgid "[4] Install Packages\t[12] Clear Cache\t[20] Edit yaourtrc"
+msgstr ""
+"[4] Instalare pachete    [12] Curățare prestocare    [20] Editare yaourtrc"
+
+#: ../yaourt-gui:45
+msgid "[5] Remove Packages\t[13] PacDiffViewer      [L] Log Pacman"
+msgstr ""
+"[5] Eliminare pachete    [13] PacDiffViewer          [L]  Istoric pacman"
+
+#: ../yaourt-gui:46
+msgid "[6] Update Packages\t[14] Pacman DB Upgrade\t[H] Help yaourt-gui"
+msgstr ""
+"[6] Actualizare pachete  [14] Actualizare BD pacman  [H]  Ajutor yaourt-gui"
+
+#: ../yaourt-gui:47
+msgid "[7] Remove Dependencies\t[15] Pacman Optimize    [Q] Quit"
+msgstr "[7] Dependențe inutile   [15] Optimizare pacman      [Q]  Ieșire"
+
+#: ../yaourt-gui:48
+msgid "[8] Search Packages     [16] Yaourt Stats"
+msgstr "[8] Căutare pachete      [16] Statistici yaourt"
+
+#: ../yaourt-gui:50
+msgid "Run a Command or Number"
+msgstr "Rulați o comanda sau un număr"
+
+#: ../yaourt-gui:56
+msgid "DB Synchronization in progress..."
+msgstr "Se sincronizează BD..."
+
+#: ../yaourt-gui:57
+msgid "COMMAND"
+msgstr "COMANDĂ"
+
+#: ../yaourt-gui:71
+msgid "Update in progress.... !!!Please Wait!!!"
+msgstr "Actualizare în curs de desfășurare... Așteptați!"
+
+#: ../yaourt-gui:75
+msgid "Press ENTER to display the Menu"
+msgstr "Apăsați ENTER pentru a afișa meniul"
+
+#: ../yaourt-gui:100
+msgid "Which packages do you want install?"
+msgstr "Ce pachete doriți instalate?"
+
+#: ../yaourt-gui:115
+msgid "Which Package do you want remove?"
+msgstr "Ce pachete doriți șterse?"
+
+#: ../yaourt-gui:130
+msgid "Which packages do you want upgrade?"
+msgstr "Ce pachete doriți actualizate?"
+
+#: ../yaourt-gui:158
+msgid "Which packages do you want search?"
+msgstr "Ce pachete doriți căutate?"
+
+#: ../yaourt-gui:173
+msgid "Which packages do you want search and install?"
+msgstr "Ce pachete doriți căutate și instalate?"
+
+#: ../yaourt-gui:251
+msgid "Upgrade successfully"
+msgstr "Actualizare reușită"
+
+#: ../yaourt-gui:288
+msgid "Is a Auth Proxy? y/n [default yes]"
+msgstr "Este un proxy autentificat? D/n [implicit da]"
+
+#: ../yaourt-gui:291
+msgid "y"
+msgstr "d"
+
+#: ../yaourt-gui:293
+msgid "Write Username"
+msgstr "Scrieți numele de utilizator"
+
+#: ../yaourt-gui:295
+msgid "Write Password"
+msgstr "Scrieți parola"
+
+#: ../yaourt-gui:298
+msgid "Write Ip or Hostname Proxy"
+msgstr "Scrieți IP sau numele de gazdă al proxyului"
+
+#: ../yaourt-gui:300
+msgid "Write port Proxy"
+msgstr "Scrieți portul proxy"
+
+#: ../yaourt-gui:312
+msgid "Proxy set successfully"
+msgstr "Proxy configurat cu succes"
+
+#: ../yaourt-gui:322
+msgid "The proxy is not set!!!!"
+msgstr "Proxyul nu este configurat!!!"
+
+#: ../yaourt-gui:368
+msgid "!!!WARNING!!! Unknown command!!"
+msgstr "!!! ATENȚIE !!! Comandă necunoscută !"
+
+#: ../yaourt-gui:377
+msgid "Do you really want remove proxy? y/n  [default yes]"
+msgstr "Chiar vreți să eliminați proxyul ? D/n [implicit da]"
+
+#: ../yaourt-gui:383
+msgid "!!! Proxy Removed !!!"
+msgstr "!!! Proxy eliminat !!!"
+
+#: ../yaourt-gui:406
+msgid "Which programs do you want use?"
+msgstr "Ce programe doriți să utilizați"
+
+#: ../yaourt-gui:407
+msgid "Write"
+msgstr "Scrieți"
+
+#: ../yaourt-gui:493
+msgid "GUIDE USE SCRIPT"
+msgstr "GHID DE UTILIZARE A SCRIPTULUI"
+
+#: ../yaourt-gui:495
+msgid "To synchronize DB"
+msgstr "Pentru a sincroniza BD"
+
+#: ../yaourt-gui:496
+msgid "To update the system"
+msgstr "Pentru a actualiza sistemul"
+
+#: ../yaourt-gui:497
+msgid "To update the system in force mode"
+msgstr "Pentru a actualiza forțat sistemul"
+
+#: ../yaourt-gui:498
+msgid "To install a packages"
+msgstr "Pentru a instala pachete"
+
+#: ../yaourt-gui:499
+msgid "To remove a packages"
+msgstr "Pentru a elimina pachete"
+
+#: ../yaourt-gui:500
+msgid "To update a packages"
+msgstr "Pentru a actualiza pachete"
+
+#: ../yaourt-gui:501
+msgid "To remove unused dependencies"
+msgstr "Pentru a elimina dependențe nefolosite"
+
+#: ../yaourt-gui:502
+msgid "To search a packages"
+msgstr "Pentru a căuta pachete"
+
+#: ../yaourt-gui:503
+msgid "To search and install a packages"
+msgstr "Pentru a căuta și instala pachete"
+
+#: ../yaourt-gui:504
+msgid "To view a file belonging"
+msgstr "Pentru a vedea apartenența unui fișier"
+
+#: ../yaourt-gui:505
+msgid "To query local database e info packages"
+msgstr "Pentru a obține informații despre pachete"
+
+#: ../yaourt-gui:506
+msgid "To clean a cache"
+msgstr "Pentru a curăța prestocarea"
+
+#: ../yaourt-gui:507
+msgid "To Manage .pac* files"
+msgstr "Pentru a gestiona fișierele *.pac"
+
+#: ../yaourt-gui:508
+msgid "To run pacman-db-upgrade"
+msgstr "Pentru a rula pacman-db-upgrade"
+
+#: ../yaourt-gui:510
+msgid "Press ENTER to continue"
+msgstr "Apăsați ENTER pentru a continua"
+
+#: ../yaourt-gui:517
+msgid "To optimize pacman"
+msgstr "Pentru a optimiza pacman"
+
+#: ../yaourt-gui:518
+msgid "To see the statistic of yaourt"
+msgstr "Pentru a vedea statisticile yaourt"
+
+#: ../yaourt-gui:519
+msgid "To set a proxy"
+msgstr "Pentru a configura un proxy"
+
+#: ../yaourt-gui:520
+msgid "To remove a proxy"
+msgstr "Pentru a elimina un proxy"
+
+#: ../yaourt-gui:521
+msgid "To modify"
+msgstr "Pentru a modifica"
+
+#: ../yaourt-gui:523
+msgid "To view a log file"
+msgstr "Pentru a vedea un istoric"
+
+#: ../yaourt-gui:524
+msgid "To see this menu"
+msgstr "Pentru a vedea acest meniu"
+
+#: ../yaourt-gui:525
+msgid "To exit the script"
+msgstr "Pentru a ieși din script"
+
+#: ../yaourt-gui:537
+msgid "Do you really want exit? y/n [default yes]"
+msgstr "Chiar vreți să ieșiți? D/n [implicit da]"
