@@ -1,2 +1,2 @@
 # yaourt-gui-manjaro
-Yaourt GUI with a Manjaro flavoring
+Yaourt GUI with Manjaro flavour and an extra Romanian translation

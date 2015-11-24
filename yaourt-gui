@@ -10,7 +10,7 @@
 ### Set ###
 TEXTDOMAINDIR=/usr/share/locale
 TEXTDOMAIN=yaourt-gui
-VER=1.2
+VER=1.4
 BLUE="\033[7;34m"
 BLU="\033[1;34m"
 RED="\033[1;31m"
@@ -68,11 +68,11 @@ gost
 ;;
 
 #### UpdateSystem ####
-2|"yaourt -Syua")
+2|"yaourt -Sua")
     echo -e ""
     echo -e "$GRE==> $(gettext 'Update in progress.... !!!Please Wait!!!')$NC"
-    echo -e "$YELLOW==> $(gettext 'COMMAND'): yaourt -Syua $NC"
-  yaourt -Syua
+    echo -e "$YELLOW==> $(gettext 'COMMAND'): yaourt -Sua $NC"
+  yaourt -Sua
     echo -e ""
     echo -e ""$GRE"$(gettext 'Press ENTER to display the Menu')$NC"
   function pause(){
@@ -83,11 +83,11 @@ gost
 ;;
 
 #### UpdateSystem Force mode ####
-3|"yaourt -Syuaf")
+3|"yaourt -Suaf")
     echo -e ""
     echo -e "$GRE==> $(gettext 'Update in progress.... !!!Please Wait!!!')$NC"
-    echo -e "$YELLOW==> $(gettext 'COMMAND'): yaourt -Syuaf $NC"
-  yaourt -Syuaf
+    echo -e "$YELLOW==> $(gettext 'COMMAND'): yaourt -Sua --force $NC"
+  yaourt -Sua --force
     echo -e ""
     echo -e ""$GRE"$(gettext 'Press ENTER to display the Menu')$NC"
   function pause(){
